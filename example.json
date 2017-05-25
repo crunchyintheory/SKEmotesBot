@@ -1,0 +1,20 @@
+{
+  "apps": [
+    {
+      "name": "skemotesbot",
+      "script": "main.js",
+      "exec_interpreter": "node",
+      "watch": [ "SKEmotesBot.json" ],
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "env": {
+        "TOKEN": "YOUR TOKEN HERE",
+        "OWNER": "YOUR ID HERE",
+        "PREFIX": "!",
+        "SHARDS": 1,
+        "LOCAL_SHARDS": 1,
+        "SHARD_OFFSET": 0,
+        "LOG_LEVEL": "DEBUG"
+      }
+    }
+  ]
+}

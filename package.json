@@ -1,0 +1,16 @@
+{
+  "name": "skemotesbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "discord.js": "^11.0.0",
+    "erlpack": "git://github.com/hammerandchisel/erlpack.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "crunchyintheory",
+  "license": "ISC"
+}
